@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7E3E9F63244072BD002A90FC /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E9F62244072BD002A90FC /* Position.swift */; };
 		7E3E9F652440744C002A90FC /* Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3E9F642440744C002A90FC /* Apple.swift */; };
-		7E3E9F6B2440A004002A90FC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E3E9F6A2440A004002A90FC /* Icon.png */; };
 		7EE4CEB12440352100FABDAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4CEB02440352100FABDAB /* AppDelegate.swift */; };
 		7EE4CEB32440352100FABDAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4CEB22440352100FABDAB /* SceneDelegate.swift */; };
 		7EE4CEB52440352100FABDAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4CEB42440352100FABDAB /* ViewController.swift */; };
@@ -25,7 +24,6 @@
 		7E3E9F62244072BD002A90FC /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		7E3E9F642440744C002A90FC /* Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple.swift; sourceTree = "<group>"; };
 		7E3E9F6624409EE6002A90FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7E3E9F6A2440A004002A90FC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		7EE4CEAD2440352100FABDAB /* 贪吃蛇.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "贪吃蛇.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE4CEB02440352100FABDAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE4CEB22440352100FABDAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,7 +51,6 @@
 		7E3E9F6724409FBB002A90FC /* info */ = {
 			isa = PBXGroup;
 			children = (
-				7E3E9F6A2440A004002A90FC /* Icon.png */,
 			);
 			path = info;
 			sourceTree = "<group>";
@@ -161,7 +158,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E3E9F6B2440A004002A90FC /* Icon.png in Resources */,
 				7EE4CEBD2440352200FABDAB /* LaunchScreen.storyboard in Resources */,
 				7EE4CEBA2440352200FABDAB /* Assets.xcassets in Resources */,
 				7EE4CEB82440352100FABDAB /* Main.storyboard in Resources */,

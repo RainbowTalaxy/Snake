@@ -2,7 +2,7 @@
 
 *系统版本 iOS 13 +*
 
-![贪吃蛇](/info/icon.png)
+![贪吃蛇](/info/Icon.png)
 
 ## iPad:
 
