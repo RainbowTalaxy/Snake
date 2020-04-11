@@ -49,4 +49,17 @@ enum Direction: String {
             return 0
         }
     }
+    
+    var reverseDirection: Direction {
+        switch self {
+        case .left:
+            return .right
+        case .right:
+            return .left
+        case .up:
+            return .down
+        case .down:
+            return .up
+        }
+    }
 }

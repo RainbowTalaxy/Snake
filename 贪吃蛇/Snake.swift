@@ -34,6 +34,12 @@ class Snake {
         }
     }
     
+    func turn(direction: Direction) {
+        if self.direction.reverseDirection != direction {
+            self.direction = direction
+        }
+    }
+    
     func inBody(p: Point) -> Bool {
         for i in body {
             if p == i {

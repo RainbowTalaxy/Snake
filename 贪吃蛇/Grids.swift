@@ -79,21 +79,13 @@ class Grids {
     func callSnake(withDirection direction: UISwipeGestureRecognizer.Direction) {
         switch direction {
         case .left:
-            if snake.direction != .right {
-                snake.direction = .left
-            }
+            snake.turn(direction: .left)
         case .right:
-            if snake.direction != .left {
-                snake.direction = .right
-            }
+            snake.turn(direction: .right)
         case .up:
-            if snake.direction != .down {
-                snake.direction = .up
-            }
+            snake.turn(direction: .up)
         case .down:
-            if snake.direction != .up {
-                snake.direction = .down
-            }
+            snake.turn(direction: .down)
         default:
             break
         }
